@@ -1,5 +1,32 @@
 # Recipe book
 
+<!-- BEGIN-MARKDOWN-TOC -->
+* [Raw queries](#raw-queries)
+* [JSON queries](#json-queries)
+* [Change id column](#change-id-column)
+* [Custom validation](#custom-validation)
+* [Map column names to different property names](#map-column-names-to-different-property-names)
+* [Paging](#paging)
+* [Subqueries](#subqueries)
+* [Joins](#joins)
+* [PostgreSQL "returning" tricks](#postgresql--returning--tricks)
+* [Polymorphic associations](#polymorphic-associations)
+* [Timestamps](#timestamps)
+* [Custom query builder](#custom-query-builder)
+* [Multi-tenancy](#multi-tenancy)
+	* [Model binding pattern](#model-binding-pattern)
+	* [Database passing pattern](#database-passing-pattern)
+* [SQL clause precedence and parentheses](#sql-clause-precedence-and-parentheses)
+* [Default values](#default-values)
+* [Composite keys](#composite-keys)
+* [Indexing PostgreSQL JSONB columns](#indexing-postgresql-jsonb-columns)
+	* [General Inverted Indexes a.k.a. GIN](#general-inverted-indexes-aka-gin)
+	* [Index on Expression](#index-on-expression)
+	* [Complete Migration Example and Created Tables / Indexes](#complete-migration-example-and-created-tables--indexes)
+* [Ternary relationships](#ternary-relationships)
+
+<!-- END-MARKDOWN-TOC -->
+
 ## Raw queries
 
 ```js
